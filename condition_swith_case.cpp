@@ -25,7 +25,7 @@ int main(){
         case 'A':
             cout << "Luar biasa!" << endl;
             break;
-        case 'B':
+        case 'B': //nilai kosong maka nilai defaultnya adalah setelahnya (C)
         case 'C':
             cout << "Bagus!" << endl;
             break;
