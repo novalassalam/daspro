@@ -8,9 +8,9 @@ using namespace std;
 // }
 
 int main() {
-	int a = 1; //kondisi awal
-	while(a <= 10) { //syarat perulangan ketika a <=10
+	int a = 12; //kondisi awal
+	while(a > 7) { //syarat perulangan ketika a <=10
 		cout<<a<<endl;
-		a++;//statement yang diharapkan
+		a=a-1;//statement yang diharapkan
 	}
 }
