@@ -16,16 +16,16 @@ void fungsiRekursif1(int n) {
 
 }
 
-// Fungsi rekursif untuk menghitung pangkat
-int pangkat(int n, int pow) {
+// Fungsi rekursif untuk menghitung perkalian
+int kali(int n, int n2) {
     // Kondisi terminasi
-    if (pow == 0) {
-        cout << pow << " ";
-        return 1 ;
+    if (n2 == 1) {
+        cout << n2 << " "<< n << "+";
+        return n ;
     } else {
-        cout << pow<< " ";
+        cout << n2<< " ";
         // Panggil fungsi rekursif dengan eksponen yang berkurang
-        return n * pangkat(n, pow - 1);
+        return n + kali(n, n2 - 1);
     }
 }
 
@@ -64,7 +64,7 @@ int main() {
 
     int basis = 2;
     int eksponen = 3;
-    cout << pangkat(basis, eksponen) << endl;
+    cout << kali(basis, eksponen) << endl;
 
     int nilai = 4;
     cout << faktorial(nilai) << endl;

@@ -14,7 +14,6 @@ int main(){
     cout << "Nilai Ke 2: " << nilai[2] << endl;
 
 
-
     // variabel bertipe array
     char huruf[5] = {'a', 'b', 'c', 'd', 'e'};
 
@@ -41,7 +40,6 @@ int main(){
     //mengambil banyaknya array
     int length = sizeof(huruf) / sizeof(*huruf);
     cout << "Panjang array huruf : " << length << endl;
-
 
 
     return 0;
