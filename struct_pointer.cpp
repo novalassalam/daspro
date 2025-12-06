@@ -15,7 +15,7 @@ int main() {
     Person *personPtr;
 
     // Mengalokasikan memori untuk satu objek struktur "Person"
-    personPtr = new Person;
+    personPtr = new Person; //new Objek harus hidup di luar scope dan memori dinamis untuk tipe data pointer 
 
     // Mengisi nilai anggota struktur melalui pointer
     personPtr->name = "John";
